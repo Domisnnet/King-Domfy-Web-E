@@ -1,3 +1,7 @@
+![GitHub repo size](https://img.shields.io/github/repo-size/domisnnet/King-Domfy-Web-Essentials?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/domisnnet/King-Domfy-Web-Essentials?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/domisnnet/King-Domfy-Web-Essentials?style=for-the-badge)
+
 <h2 id="sobre-o-projeto">1. 🎵 King-Domfy - Música para Todos 🎵🎵</h2>
 
 ![Status do Deploy](https://img.shields.io/badge/Status-Online-brightgreen)
@@ -74,10 +78,10 @@ Implementação de controles customizados para o carrossel, garantindo que a exp
 
 ```bash
 # Clonar o repositório
-git clone [https://github.com/Domisnnet/King-Domfy.git](https://github.com/Domisnnet/King-Domfy.git)
+git clone [https://github.com/Domisnnet/King-Domfy-Web-Essentials.git](https://github.com/Domisnnet/King-Domfy-Web-Essentials.git)
 
 # Acessar a pasta
-cd King-Domfy
+cd King-Domfy-Web-Essentials
 ```
 
 ---
@@ -88,17 +92,17 @@ Siga os passos abaixo para fortalecer este projeto:
 
 | Fase | Ação | Link / Comando |
 | :---: | :--- | :--- |
-| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/King-Domfy/fork) |
+| **01** | **Fork** | [![Fork](https://img.shields.io/badge/-Fazer%20Fork-blue?style=flat-square&logo=github)](https://github.com/Domisnnet/King-Domfy-Web-Essentials/fork) |
 | **02** | **Branch** | `git checkout -b feature/MinhaMelhoria` |
 | **03** | **Commit** | `git commit -m 'feat: nova seção de álbuns'` |
 | **04** | **Push** | `git push origin feature/MinhaMelhoria` |
-| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/King-Domfy/compare) |
+| **05** | **PR** | [![Abrir PR](https://img.shields.io/badge/-Abrir%20PR-green?style=flat-square&logo=git)](https://github.com/Domisnnet/King-Domfy-Web-Essentials/compare) |
 
 ### 🐛 Encontrou um problema?
 Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
-[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/King-Domfy?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/King-Domfy/issues)
-[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/King-Domfy/issues/new)
+[![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/King-Domfy?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/King-Domfy-Web-Essentials/issues)
+[![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/King-Domfy-Web-Essentials/issues/new)
 
 ---
 
@@ -140,7 +144,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 Deseja analisar a estrutura do projeto? Explore o repositório oficial:
 
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FKing--Domfy-1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/King-Domfy)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FKing--Domfy--Web--Essentials1DB954?style=for-the-badge&logo=github)](https://github.com/Domisnnet/King-Domfy-Web-Essentials)
 
 ---
 
@@ -164,7 +168,7 @@ O **King-Domfy** é o resultado de esforço técnico e inspiração em grandes p
 
 <h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/King-Domfy/blob/main/LICENSE)
+Este projeto está licenciado sob a [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/King-Domfy-Web-Essentials/blob/main/LICENSE)
 
 ---
 
