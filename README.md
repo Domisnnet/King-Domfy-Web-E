@@ -144,7 +144,7 @@ Se algo não estiver funcionando como esperado, não hesite em abrir um chamado:
 
 Deseja analisar a estrutura do projeto? Explore o repositório oficial:
 
-[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FKing--Domfy--Web--Essentials-blue?style=for-the-badge&logo=github&labelColor=0d1117)](https://domisnnet.github.io/King-Domfy-Web-Essentials/)
+[![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FKing--Domfy--Web--Essentials-F7DF1E?style=for-the-badge&logo=javascript&labelColor=0d1117)](https://domisnnet.github.io/King-Domfy-Web-Essentials/)
 
 ---
 
