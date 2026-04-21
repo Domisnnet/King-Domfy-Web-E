@@ -14,7 +14,7 @@ const pages = [
 const htmlPlugins = pages.map(page => {
   return new HtmlWebpackPlugin({
     template: path.join(__dirname, 'src/pages', page),
-    filename: page === 'player.html' ? 'player.html' : `pages/${page}`,
+    filename: `pages/${page}`,
     inject: 'body'
   });
 });
