@@ -3,18 +3,19 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
+// Todas as paginas, exceto a home, que sera o index.html
 const pages = [
   "ajuda.html", "aplicativo-movel-gratis.html", "artistas.html", "baixar.html",
-  "cookies.html", "desenvolvedores.html", "empregos.html", "entrar.html",
-  "imprensa.html", "inscrever-se.html", "legal.html", "lgpd.html", "marcas.html",
-  "novidades.html", "player.html", "premium.html", "privacidade-termos.html", "privacidade.html", 
-  "sobre.html", "suporte.html", "termos.html"
+  "cookies.html", "desenvolvedores.html", "empregos.html", "entrar.html", 
+  "home.html", "imprensa.html", "inscrever-se.html", "legal.html", "lgpd.html", "marcas.html",
+  "novidades.html", "player.html", "premium.html", "privacidade-termos.html", 
+  "privacidade.html", "sobre.html", "suporte.html", "termos.html"
 ];
 
 const htmlPlugins = pages.map(page => {
   return new HtmlWebpackPlugin({
     template: path.join(__dirname, 'src/pages', page),
-    filename: `pages/${page}`,
+    filename: page === 'player.html' ? 'player.html' : `pages/${page}`,
     inject: 'body'
   });
 });
@@ -51,7 +52,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/pages/player.html',
+      template: './src/pages/home.html',
       filename: 'index.html',
       inject: 'body'
     }),
