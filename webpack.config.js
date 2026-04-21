@@ -3,11 +3,10 @@ const webpack = require('webpack');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
-// Todas as paginas, exceto a home, que sera o index.html
 const pages = [
   "ajuda.html", "aplicativo-movel-gratis.html", "artistas.html", "baixar.html",
   "cookies.html", "desenvolvedores.html", "empregos.html", "entrar.html", 
-  "home.html", "imprensa.html", "inscrever-se.html", "legal.html", "lgpd.html", "marcas.html",
+  "imprensa.html", "inscrever-se.html", "legal.html", "lgpd.html", "marcas.html",
   "novidades.html", "player.html", "premium.html", "privacidade-termos.html", 
   "privacidade.html", "sobre.html", "suporte.html", "termos.html"
 ];
