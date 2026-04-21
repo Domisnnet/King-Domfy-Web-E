@@ -1,3 +1,10 @@
+import 'jquery';
+import 'popper.js';
+import 'bootstrap';
+import '@src/vendor/fontawesome/js/v4-shims.min.js';
+import './template-loader.js';
+import '@src/css/estilos-globais.css';
+
 let indiceAtual = 0;
 const audio = new Audio();
 let isPlaying = false;
@@ -5,17 +12,17 @@ let isShuffle = false;
 let isRepeat = false;
 
 const playlist = [
-  { titulo: "Capa do Álbum", caminho: "../../src/imagens/melodias-da-alma.jpeg", capa: "../../src/imagens/melodias-da-alma.jpeg"},
-  { titulo: "Hino 1 - Hino da Jornada", caminho: "../../src/media/hino1.mp3", capa: "../../src/imagens/img1.jpeg" },
-  { titulo: "Hino 2 - A estrada é longa, mas eu sigo", caminho: "../../src/media/hino2.mp3", capa: "../../src/imagens/img2.jpeg" },
-  { titulo: "Hino 3 - Em Tua Vida, Deus", caminho: "../../src/media/hino3.mp3", capa: "../../src/imagens/img3.jpeg" },
-  { titulo: "Hino 4 - Siga adiante, não desanima", caminho: "../../src/media/hino4.mp3", capa: "../../src/imagens/img4.jpeg" },
-  { titulo: "Hino 5 - Eu só queria, Senhor!", caminho: "../../src/media/hino5.mp3", capa: "../../src/imagens/img5.jpeg" },
-  { titulo: "Hino 6 - Às vezes eu me sinto assim", caminho: "../../src/media/hino6.mp3", capa: "../../src/imagens/img6.jpeg" },
-  { titulo: "Hino 7 - O Sangue de Cristo Conhecido", caminho: "../../src/media/hino7.mp3", capa: "../../src/imagens/img7.jpeg" },
-  { titulo: "Hino 8 - O Amor aqui, esfriando está", caminho: "../../src/media/hino8.mp3", capa: "../../src/imagens/img8.jpeg" },
-  { titulo: "Hino 9 - Hoje é tão Difícil", caminho: "../../src/media/hino9.mp3", capa: "../../src/imagens/img9.jpeg" },
-  { titulo: "Hino 10 - Pelo Sangue purificado", caminho: "../../src/media/Pelo Sangue, Purificado..mp3", capa: "../../src/imagens/img10.jpeg" }
+  { titulo: "Capa do Álbum", caminho: "imagens/melodias-da-alma.jpeg", capa: "imagens/melodias-da-alma.jpeg"},
+  { titulo: "Hino 1 - Hino da Jornada", caminho: "media/hino1.mp3", capa: "imagens/img1.jpeg" },
+  { titulo: "Hino 2 - A estrada é longa, mas eu sigo", caminho: "media/hino2.mp3", capa: "imagens/img2.jpeg" },
+  { titulo: "Hino 3 - Em Tua Vida, Deus", caminho: "media/hino3.mp3", capa: "imagens/img3.jpeg" },
+  { titulo: "Hino 4 - Siga adiante, não desanima", caminho: "media/hino4.mp3", capa: "imagens/img4.jpeg" },
+  { titulo: "Hino 5 - Eu só queria, Senhor!", caminho: "media/hino5.mp3", capa: "imagens/img5.jpeg" },
+  { titulo: "Hino 6 - Às vezes eu me sinto assim", caminho: "media/hino6.mp3", capa: "imagens/img6.jpeg" },
+  { titulo: "Hino 7 - O Sangue de Cristo Conhecido", caminho: "media/hino7.mp3", capa: "imagens/img7.jpeg" },
+  { titulo: "Hino 8 - O Amor aqui, esfriando está", caminho: "media/hino8.mp3", capa: "imagens/img8.jpeg" },
+  { titulo: "Hino 9 - Hoje é tão Difícil", caminho: "media/hino9.mp3", capa: "imagens/img9.jpeg" },
+  { titulo: "Hino 10 - Pelo Sangue purificado", caminho: "media/Pelo Sangue, Purificado..mp3", capa: "imagens/img10.jpeg" }
 ];
 
 const initPlayer = () => {
@@ -138,4 +145,4 @@ const initPlayer = () => {
   audio.volume = volumeSlider.value;
 };
 
-document.addEventListener('DOMContentLoaded', initPlayer);
+document.addEventListener('templatesReady', initPlayer);
