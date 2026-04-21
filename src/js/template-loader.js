@@ -9,8 +9,8 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   };
 
-  const headerPromise = loadTemplate('header-placeholder', '/templates/header.html');
-  const footerPromise = loadTemplate('footer-placeholder', '/templates/footer.html');
+  const headerPromise = loadTemplate('header-placeholder', 'templates/header.html');
+  const footerPromise = loadTemplate('footer-placeholder', 'templates/footer.html');
 
   Promise.all([headerPromise, footerPromise])
     .then(() => {
