@@ -1,0 +1,21 @@
+{
+  "name": "king-domfy-web-e",
+  "version": "1.0.0",
+  "description": "![GitHub repo size](https://img.shields.io/github/repo-size/domisnnet/King-Domfy-Web-Essentials?style=for-the-badge) ![GitHub stars](https://img.shields.io/github/stars/domisnnet/King-Domfy-Web-Essentials?style=for-the-badge) ![GitHub last commit](https://img.shields.io/github/last-commit/domisnnet/King-Domfy-Web-Essentials?style=for-the-badge)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^7.1.4",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3"
+  }
+}
