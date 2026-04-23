@@ -79,7 +79,7 @@ module.exports = {
   },
   devServer: {
     static: {
-      directory: path.resolve(__dirname, 'dist'),
+      directory: path.resolve(__dirname, 'src'),
     },
     devMiddleware: {
       publicPath: '/'
@@ -87,6 +87,5 @@ module.exports = {
     watchFiles: ['src/**/*'],
     hot: true,
     open: true,
-    historyApiFallback: true,
   },
 };
