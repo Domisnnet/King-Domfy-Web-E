@@ -24,7 +24,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '', // CORREÇÃO FINAL E DEFINITIVA
     clean: true,
   },
   module: {

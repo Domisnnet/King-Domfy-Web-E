@@ -2,7 +2,8 @@ document.addEventListener('DOMContentLoaded', function() {
   const loadTemplate = (id, url) => {
     const path = window.location.pathname;
     const isSubPage = path.includes('/pages/');
-    const baseUrl = isSubPage ? '../' : './';
+    // CORREÇÃO: O caminho base para os templates deve ser relativo à raiz do site.
+    const baseUrl = isSubPage ? '../' : '';
     const finalUrl = baseUrl + url;
 
     return fetch(finalUrl)

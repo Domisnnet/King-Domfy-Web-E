@@ -14,23 +14,22 @@ let isShuffle = false;
 let isRepeat = false;
 
 const playlist = [
-  { titulo: "Capa do Álbum", caminho: "/media/hino1.mp3", capa: "/imagens/melodias-da-alma.jpeg"},
-  { titulo: "Hino 1 - Hino da Jornada", caminho: "/media/hino1.mp3", capa: "/imagens/img1.jpeg" },
-  { titulo: "Hino 2 - A estrada é longa, mas eu sigo", caminho: "/media/hino2.mp3", capa: "/imagens/img2.jpeg" },
-  { titulo: "Hino 3 - Em Tua Vida, Deus", caminho: "/media/hino3.mp3", capa: "/imagens/img3.jpeg" },
-  { titulo: "Hino 4 - Siga adiante, não desanima", caminho: "/media/hino4.mp3", capa: "/imagens/img4.jpeg" },
-  { titulo: "Hino 5 - Eu só queria, Senhor!", caminho: "/media/hino5.mp3", capa: "/imagens/img5.jpeg" },
-  { titulo: "Hino 6 - Às vezes eu me sinto assim", caminho: "/media/hino6.mp3", capa: "/imagens/img6.jpeg" },
-  { titulo: "Hino 7 - O Sangue de Cristo Conhecido", caminho: "/media/hino7.mp3", capa: "/imagens/img7.jpeg" },
-  { titulo: "Hino 8 - O Amor aqui, esfriando está", caminho: "/media/hino8.mp3", capa: "/imagens/img8.jpeg" },
-  { titulo: "Hino 9 - Hoje é tão Difícil", caminho: "/media/hino9.mp3", capa: "/imagens/img9.jpeg" },
-  { titulo: "Hino 10 - Pelo Sangue purificado", caminho: "/media/Pelo Sangue, Purificado..mp3", capa: "/imagens/img10.jpeg" }
+  { titulo: "Capa do Álbum", caminho: "media/hino1.mp3", capa: "imagens/melodias-da-alma.jpeg"},
+  { titulo: "Hino 1 - Hino da Jornada", caminho: "media/hino1.mp3", capa: "imagens/img1.jpeg" },
+  { titulo: "Hino 2 - A estrada é longa, mas eu sigo", caminho: "media/hino2.mp3", capa: "imagens/img2.jpeg" },
+  { titulo: "Hino 3 - Em Tua Vida, Deus", caminho: "media/hino3.mp3", capa: "imagens/img3.jpeg" },
+  { titulo: "Hino 4 - Siga adiante, não desanima", caminho: "media/hino4.mp3", capa: "imagens/img4.jpeg" },
+  { titulo: "Hino 5 - Eu só queria, Senhor!", caminho: "media/hino5.mp3", capa: "imagens/img5.jpeg" },
+  { titulo: "Hino 6 - Às vezes eu me sinto assim", caminho: "media/hino6.mp3", capa: "imagens/img6.jpeg" },
+  { titulo: "Hino 7 - O Sangue de Cristo Conhecido", caminho: "media/hino7.mp3", capa: "imagens/img7.jpeg" },
+  { titulo: "Hino 8 - O Amor aqui, esfriando está", caminho: "media/hino8.mp3", capa: "imagens/img8.jpeg" },
+  { titulo: "Hino 9 - Hoje é tão Difícil", caminho: "media/hino9.mp3", capa: "imagens/img9.jpeg" },
+  { titulo: "Hino 10 - Pelo Sangue purificado", caminho: "media/Pelo Sangue, Purificado..mp3", capa: "imagens/img10.jpeg" }
 ];
 
 const initPlayer = () => {
   const btnPlayPause = document.getElementById('btnPlayPause');
   if (!btnPlayPause) return;
-
   const btnNext = document.getElementById('btnNext');
   const btnPrev = document.getElementById('btnPrev');
   const btnShuffle = document.getElementById('btnShuffle');
@@ -45,7 +44,6 @@ const initPlayer = () => {
   const timeTotal = document.getElementById('totalDuration');
   const volumeSlider = document.getElementById('volumeSlider');
   const volumeIcon = document.getElementById('volumeIcon');
-
   const formatarTempo = (segundos) => {
     const min = Math.floor(segundos / 60);
     const seg = Math.floor(segundos % 60);
@@ -113,7 +111,6 @@ const initPlayer = () => {
 
   btnNext.addEventListener('click', proximaMusica);
   btnPrev.addEventListener('click', musicaAnterior);
-
   audio.addEventListener('timeupdate', () => {
     const percent = (audio.currentTime / audio.duration) * 100;
     if (progressFill) progressFill.style.width = `${percent}%`;
@@ -128,7 +125,6 @@ const initPlayer = () => {
   });
 
   audio.addEventListener('ended', proximaMusica);
-
   volumeSlider.addEventListener('input', () => {
     audio.volume = volumeSlider.value;
     if (audio.volume === 0) {
