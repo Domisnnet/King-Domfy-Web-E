@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import '@/vendor/fontawesome/css/all.min.css';
 import '@/vendor/fontawesome/js/v4-shims.min.js';
 import '@/js/template-loader.js';
