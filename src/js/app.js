@@ -12,17 +12,17 @@ let isShuffle = false;
 let isRepeat = false;
 
 const playlist = [
-  { titulo: "Capa do Álbum", caminho: "media/hino1.mp3", capa: "imagens/melodias-da-alma.jpeg"},
-  { titulo: "Hino 1 - Hino da Jornada", caminho: "media/hino1.mp3", capa: "imagens/img1.jpeg" },
-  { titulo: "Hino 2 - A estrada é longa, mas eu sigo", caminho: "media/hino2.mp3", capa: "imagens/img2.jpeg" },
-  { titulo: "Hino 3 - Em Tua Vida, Deus", caminho: "media/hino3.mp3", capa: "imagens/img3.jpeg" },
-  { titulo: "Hino 4 - Siga adiante, não desanima", caminho: "media/hino4.mp3", capa: "imagens/img4.jpeg" },
-  { titulo: "Hino 5 - Eu só queria, Senhor!", caminho: "media/hino5.mp3", capa: "imagens/img5.jpeg" },
-  { titulo: "Hino 6 - Às vezes eu me sinto assim", caminho: "media/hino6.mp3", capa: "imagens/img6.jpeg" },
-  { titulo: "Hino 7 - O Sangue de Cristo Conhecido", caminho: "media/hino7.mp3", capa: "imagens/img7.jpeg" },
-  { titulo: "Hino 8 - O Amor aqui, esfriando está", caminho: "media/hino8.mp3", capa: "imagens/img8.jpeg" },
-  { titulo: "Hino 9 - Hoje é tão Difícil", caminho: "media/hino9.mp3", capa: "imagens/img9.jpeg" },
-  { titulo: "Hino 10 - Pelo Sangue purificado", caminho: "media/hino10.mp3", capa: "imagens/img10.jpeg" }
+  { titulo: "Capa do Álbum", caminho: "/assets/media/hino1.mp3", capa: "/assets/imagens/melodias-da-alma.jpeg"},
+  { titulo: "Hino 1 - Hino da Jornada", caminho: "/assets/media/hino1.mp3", capa: "/assets/imagens/img1.jpeg" },
+  { titulo: "Hino 2 - A estrada é longa, mas eu sigo", caminho: "/assets/media/hino2.mp3", capa: "/assets/imagens/img2.jpeg" },
+  { titulo: "Hino 3 - Em Tua Vida, Deus", caminho: "/assets/media/hino3.mp3", capa: "/assets/imagens/img3.jpeg" },
+  { titulo: "Hino 4 - Siga adiante, não desanima", caminho: "/assets/media/hino4.mp3", capa: "/assets/imagens/img4.jpeg" },
+  { titulo: "Hino 5 - Eu só queria, Senhor!", caminho: "/assets/media/hino5.mp3", capa: "/assets/imagens/img5.jpeg" },
+  { titulo: "Hino 6 - Às vezes eu me sinto assim", caminho: "/assets/media/hino6.mp3", capa: "/assets/imagens/img6.jpeg" },
+  { titulo: "Hino 7 - O Sangue de Cristo Conhecido", caminho: "/assets/media/hino7.mp3", capa: "/assets/imagens/img7.jpeg" },
+  { titulo: "Hino 8 - O Amor aqui, esfriando está", caminho: "/assets/media/hino8.mp3", capa: "/assets/imagens/img8.jpeg" },
+  { titulo: "Hino 9 - Hoje é tão Difícil", caminho: "/assets/media/hino9.mp3", capa: "/assets/imagens/img9.jpeg" },
+  { titulo: "Hino 10 - Pelo Sangue purificado", caminho: "/assets/media/hino10.mp3", capa: "/assets/imagens/img10.jpeg" }
 ];
 
 const initPlayer = () => {
